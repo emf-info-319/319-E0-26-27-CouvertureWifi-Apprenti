@@ -66,7 +66,8 @@ public class ApplicationApprenti {
         // - moyennes : nombreSignauxMoyens ;
         // - fortes : nombreSignauxForts.
         //
-        // 12. Parcourez le tableau. Pour chaque mesure, declarez une variable entiere
+        // 12. Parcourez le tableau.
+        // 12.1 Pour chaque mesure, declarez une variable entiere
         // nommee etatSignal.
         //
         // Donnez un etat numerique a etatSignal :
@@ -79,18 +80,18 @@ public class ApplicationApprenti {
         // Si vous n'arrivez pas a trouver l'etat, continuez avec la valeur par defaut :
         // etatSignal = 1
         //
-        // 13. A l'aide d'un switch sur etatSignal, comptez la mesure dans une des
+        // 12.2 A l'aide d'un switch sur etatSignal, comptez la mesure dans une des
         // trois categories :
         // - 0 -> signal faible ;
         // - 1 -> signal moyen ;
         // - 2 -> signal fort.
         //
-        // 14. Affichez les resultats sous la forme :
+        // 13. Affichez les resultats sous la forme :
         // Signaux Faibles: X (X étant le nombre de signaux faible)
         // Signaux Moyens: Y (Y étant le nombre de signaux moyen)
         // Signaux Forts: Z (Z étant le nombre de signaux fort)
         //
-        // 15. Affichez finalement :
+        // 14. Affichez finalement :
         // Fin de l'analyse pour AREA_NAME
         //
         // -----------------------------------------------------------
@@ -149,7 +150,8 @@ public class ApplicationApprenti {
         // - medium: nombreSignauxMoyens;
         // - strong: nombreSignauxForts.
         //
-        // 12. Browse the array. For each measurement, declare an integer variable
+        // 12. Browse the array.
+        // 12.1 For each measurement, declare an integer variable
         // named etatSignal.
         //
         // Give a numeric state to etatSignal:
@@ -162,18 +164,18 @@ public class ApplicationApprenti {
         // If you cannot find the state, continue with this default value:
         // etatSignal = 1
         //
-        // 13. With a switch on etatSignal, count the measurement in one of the
+        // 12.2 With a switch on etatSignal, count the measurement in one of the
         // three categories:
         // - 0 -> weak signal;
         // - 1 -> medium signal;
         // - 2 -> strong signal.
         //
-        // 14. Display the results in this format:
+        // 13. Display the results in this format:
         // Weak signals: X (X is the number of weak signals)
         // Medium signals: Y (Y is the number of medium signals)
         // Strong signals: Z (Z is the number of strong signals)
         //
-        // 15. Finally display:
+        // 14. Finally display:
         // End of the analysis for area AREA_NAME
 
     }
